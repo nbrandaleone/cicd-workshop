@@ -1,0 +1,13 @@
+{
+  "triggerTemplate": {
+    "projectId": "nick-demo-301621",
+    "repoName": "cicd",
+    "branchName": "main"
+  },
+  "description": "main",
+  "substitutions": {
+    "_CLOUDSDK_COMPUTE_ZONE": "us-central1-a",
+    "_CLOUDSDK_CONTAINER_CLUSTER": "cloudrun"
+  },
+  "filename": "builder/cloudbuild-canary.yaml"
+}
